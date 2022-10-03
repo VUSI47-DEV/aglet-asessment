@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aglet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!--------------------------------------------------------------- Navbar markup ----------------------------------------------------->
+    <header>
+        <nav>
+            <img class="logo" src="assets/aglet_logo.svg" alt="logo-icon">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="" class="nav-link">home</a></li>
+                <li><a href="./contact.html" class="nav-link">contact</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+
+        </nav>
+    </header>
+
+    <!---------------------------------------------------------- Slider Section ----------------------------------------------------------->
+    <main>
+        <!-- Swiper -->
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide my-slide">
+                    <video class="vid" src="assets/Videos/1_Grow_up_Stage_Modul_video.mp4"
+                        poster="assets/Thumbnails/download.jpg">
+                    </video>
+                    <div class="title">
+                        <h2>Grow Up Stage Modul</h2>
+                        <p>Developent</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <video class="vid" src="/assets/Videos/bmw_stage_3.mp4"
+                        poster="assets/Thumbnails/download-9.jpg"></video>
+                    <div class="title">
+                        <h2>BMW</h2>
+                        <p>Black Modern BMW </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <video class="vid" src="/assets/Videos/EasyRider_8Sec_L.mp4"
+                        poster="assets/Thumbnails/download-3.jpg">
+                    </video>
+                    <div class="title">
+                        <h2>Easy Rider</h2>
+                        <p>Biker Boys Club</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <video class="vid" src="assets/Videos/eq_stage_video.mp4"
+                        poster="assets/Thumbnails/download-10.jpg">
+                    </video>
+                    <div class="title">
+                        <h2>EQ Stage</h2>
+                        <p>Mercedes-EQ-Stage</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <video class="vid" src="assets/Videos/F1_stage-1.mp4" poster="assets/Thumbnails/download-8.jpg">
+                    </video>
+                    <div class="title">
+                        <h2>F1 Stage - Mercedes</h2>
+                        <p>The F1 Stage</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <video class="vid" src="assets/Videos/IAA_Makingof_8Sec_L.mp4"
+                        poster="assets/Thumbnails/download-1.jpg">
+                    </video>
+                    <div class="title">
+                        <h2>IAA</h2>
+                        <p>Making Of 8Sec Stage</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <video class="vid" src="assets/Videos/katjes_stage-1.mp4" poster="assets/Thumbnails/download-4.jpg">
+                    </video>
+                    <div class="title">
+                        <h2>Katjes</h2>
+                        <p>The Katjes-Stage</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <video class="vid" src="assets/Videos/Mercedes_Leon_stage.mp4"
+                        poster="assets/Thumbnails/download-6.jpg">
+                    </video>
+                    <div class="title">
+                        <h2>Mercedes</h2>
+                        <p>Mercedes-Leon-stage</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <video class="vid" src="assets/Videos/risk_1.mp4" poster="assets/Thumbnails/download-5.jpg">
+                    </video>
+                    <div class="title">
+                        <h2>Risk</h2>
+                        <p>The Risk</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <video class="vid" src="assets/Videos/stage_g_class_dna.mp4"
+                        poster="assets/Thumbnails/download-11.jpg">
+                    </video>
+                    <div class="title">
+                        <h2>G-Class</h2>
+                        <p>The G-Class-Stage</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <video class="vid" src="assets/Videos/stage_xmas.mp4" poster="assets/Thumbnails/download-7.jpg">
+                    </video>
+                    <div class="title">
+                        <h2>XMAS</h2>
+                        <p>The XMAS-Stage</p>
+                    </div>
+                </div>
+                <div class="swiper-slide my-slide">
+                    <video class="vid" src="assets/Videos/TimeToLookUpAgain_8Sec_L.mp4"
+                        poster="assets/Thumbnails/download-2.jpg">
+                    </video>
+                    <div class="title">
+                        <h2>Time-To-Look-Up-Again</h2>
+                        <p>Look Up</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.mySwiper', {
+                slidesPerView: 3,
+                slidesPerColumn: 2,
+                spaceBetween: 8,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+
+
+
+            });
+        </script>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
